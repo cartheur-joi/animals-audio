@@ -21,10 +21,6 @@ namespace CSCore.Test.Streams
             Assert.AreEqual(2, monoSource.WaveFormat.Channels);
 
             ISoundOut soundOut;
-            if (WasapiOut.IsSupportedOnCurrentPlatform)
-                soundOut = new WasapiOut();
-            else
-                soundOut = new DirectSoundOut();
 
             soundOut.Initialize(monoSource.ToWaveSource(16));
             soundOut.Play();

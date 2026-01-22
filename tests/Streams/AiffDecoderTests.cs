@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using CSCore.Codecs.AIFF;
-using CSCore.Test.Properties;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace CSCore.Test.Streams
@@ -11,7 +10,7 @@ namespace CSCore.Test.Streams
     {
         protected override IWaveSource GetSource()
         {
-            return new AiffReader(new MemoryStream(Resources.aiff_50s_sine));
+            return new AiffReader(new MemoryStream("aiff_50s_sine"));
         }
     }
 }

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36915.13 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "animals-audio", "core\animals-audio.csproj", "{21803830-09A8-5167-3CCC-3722B87D0A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "animals-audio-tests", "tests\animals-audio-tests.csproj", "{DA42D8CE-E17D-1322-98E4-D02AC9AE9667}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21803830-09A8-5167-3CCC-3722B87D0A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21803830-09A8-5167-3CCC-3722B87D0A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21803830-09A8-5167-3CCC-3722B87D0A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21803830-09A8-5167-3CCC-3722B87D0A90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA42D8CE-E17D-1322-98E4-D02AC9AE9667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA42D8CE-E17D-1322-98E4-D02AC9AE9667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA42D8CE-E17D-1322-98E4-D02AC9AE9667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA42D8CE-E17D-1322-98E4-D02AC9AE9667}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF7599D8-BBB0-4945-852D-9BF04BD1B2C9}
+	EndGlobalSection
+EndGlobal
